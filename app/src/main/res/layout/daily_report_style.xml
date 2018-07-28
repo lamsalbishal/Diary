@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/fontfavourite"
+        android:layout_marginTop="10dp">
+
+        <com.santalu.diagonalimageview.DiagonalImageView
+            android:id="@+id/dailyReportImageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/mt"
+            app:di_borderColor="#FF5722"
+            app:di_borderEnabled="false"
+            app:di_direction="top"
+            app:di_overlap="59dp"
+            app:di_position="right"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dailyReportTitleView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="@color/colorWhite"
+                android:text="Food"
+                android:textStyle="bold"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:id="@+id/dailyReportDateView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/colorWhite"
+                android:text="2075-2-3"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"/>
+
+            <ImageView
+                android:layout_marginTop="-10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/flowers"
+                android:layout_marginLeft="100dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

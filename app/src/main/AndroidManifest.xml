@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bisha.diary">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/dairy1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login_Page">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Start_Page" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ADDFAvourite" />
+        <activity
+            android:name=".FavouritePage"
+            android:label="@string/title_activity_favourite_page"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Account_setting" />
+        <activity android:name=".AddBirthday" />
+        <activity android:name=".add_favourite_page" />
+        <activity android:name=".AddDailyReport" />
+        <activity android:name=".SecretRegister" />
+        <activity
+            android:name=".SecretMessage"
+            android:label="@string/title_activity_secret_message"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".AddSecretMessage" />
+        <activity
+            android:name=".Memorial"
+            android:label="@string/title_activity_memorial"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".AddMemorial" />
+        <activity android:name=".AddImageView" />
+        <activity android:name=".ImageViewSwap" />
+        <activity android:name=".SecretPassword" />
+        <activity android:name=".TestPage" />
+        <activity android:name=".DeleteUpdateFavouritePage" />
+        <activity android:name=".SingleViewDailyReport" />
+        <activity android:name=".SingleSecretMessage" />
+        <activity android:name=".SingleMemorialPage" />
+        <activity android:name=".SetPattern" />
+        <activity
+            android:name=".BirthDay"
+            android:label="@string/title_activity_birth_day"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".SingleBirthDayPage" />
+        <activity android:name=".FrameEditing"></activity>
+    </application>
+
+</manifest>

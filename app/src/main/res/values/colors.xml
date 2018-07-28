@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBgLogin">#ffffe6</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorButton">#ff4d94</color>
+    <color name="colorAddPage">#FF057DF6</color>
+    <color name="colorAddPageButton">#ea3fd0</color>
+    <color name="patternColor">#302e2e</color>
+
+    <color name="dialog">#abffc0</color>
+
+
+    <color name="aqua">#078796</color>
+    <color name="fontfavourite">#1e5fa9</color>
+
+    <color name="fontReport">#197984</color>
+    <color name="registerPass">#3783b9</color>
+
+    <color name="green">#3ab803</color>
+</resources>

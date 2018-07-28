@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SingleMemorialPage"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/aqua">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimary"
+            android:gravity="right">
+
+            <ImageView
+                android:layout_marginRight="20dp"
+                android:id="@+id/updateMemorialPage"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_system_update_black_24dp"/>
+
+            <ImageView
+                android:layout_marginRight="20dp"
+                android:id="@+id/deleteMemorialPage"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_delete_forever_black_24dp"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:id="@+id/singlememorialTitleView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:text="Hello "
+            android:textColor="@color/colorWhite"/>
+
+        <TextView
+            android:id="@+id/singlememorialDateView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textSize="20dp"
+            android:text="2075-3-2"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:textColor="@color/colorWhite"/>
+
+        <ImageView
+            android:id="@+id/singlememorialImageView"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/mt"/>
+
+        <ImageView
+            android:layout_marginTop="-60dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/girl"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textColor="@color/colorWhite"
+                        android:id="@+id/singlememorialDesView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Description"
+                        android:padding="10dp"
+                        android:textSize="20sp"
+                        />
+
+
+                </LinearLayout>
+            </ScrollView>
+
+
+        </LinearLayout>
+        <ImageView
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@mipmap/memorial"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

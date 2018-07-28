@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Add Fornt Page">
+        <menu>
+
+
+            <item
+                android:id="@+id/image_add"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Add Image" />
+            <item
+                android:id="@+id/daily_report"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Report Add" />
+            <item
+                android:id="@+id/favourite_add"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Favourite Add" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_birthday"
+            android:icon="@drawable/ic_menu_gallery"
+
+            android:title="Birthday" />
+        <item
+            android:id="@+id/nav_editing_Image"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Photo Filter" />
+
+        <item
+            android:id="@+id/nav_memorial_thing"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Top Memorial" />
+
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Secret Message" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+
+            <item
+                android:id="@+id/account_setting"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Secret Account Setting" />
+            <item
+                android:id="@+id/account_set_pattern"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Set Pattern" />
+        </menu>
+    </item>
+
+</menu>

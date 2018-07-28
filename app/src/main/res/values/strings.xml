@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Diary</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_favourite_page">FavouritePage</string>
+    <string name="title_activity_secret_message">SecretMessage</string>
+    <string name="title_activity_memorial">Memorial</string>
+    <string name="title_activity_photo_editing">PhotoEditing</string>
+    <string name="title_activity_birth_day">BirthDay</string>
+</resources>

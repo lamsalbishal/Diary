@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/registerPass"
+        android:layout_marginTop="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/green"
+            android:background="@color/green"
+            android:text="H"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:paddingLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/frnImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/mt"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/frnNameView"
+                android:textSize="30dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/colorWhite"
+                android:text="Hello"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/frnBirthdayView"
+                android:textSize="20dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/colorWhite"
+                android:text="Hello"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

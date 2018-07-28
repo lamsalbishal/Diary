@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/aqua"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/heart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp">
+
+
+    <com.santalu.diagonalimageview.DiagonalImageView
+        android:id="@+id/favouritePageimageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/mt"
+        app:di_borderColor="#FF5722"
+        app:di_borderEnabled="false"
+        app:di_direction="left"
+        app:di_overlap="59dp"
+        app:di_position="bottom"/>
+
+
+
+    <ImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/heart"
+        android:layout_marginTop="-50dp"/>
+
+     <TextView
+         android:id="@+id/favouritePageTitleView"
+         android:paddingRight="5dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:text="Hello"
+         android:textSize="30dp"
+         android:layout_marginTop="-70dp"
+         android:textColor="@color/colorWhite"
+         />
+
+
+
+    <TextView
+        android:textColor="@color/colorWhite"
+        android:id="@+id/favouritePageDateView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_gravity="right"
+        android:paddingRight="10dp"
+        android:text="2075-3-2"/>
+
+
+
+    </LinearLayout>
+
+            <TextView
+                android:layout_below="@id/heart"
+                android:textColor="@color/colorWhite"
+                android:layout_margin="8dp"
+                android:id="@+id/favouritePageDesView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Description"
+                android:textSize="16sp"/>
+
+            <ImageView
+                android:layout_below="@id/favouritePageDesView"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@mipmap/butteryfly"
+                android:scaleType="fitXY"/>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

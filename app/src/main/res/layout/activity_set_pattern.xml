@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetPattern"
+    android:orientation="vertical"
+    android:background="@mipmap/patternbg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Pattern"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        />
+
+
+
+        <com.andrognito.patternlockview.PatternLockView
+            android:id="@+id/pattern_lock_view"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            />
+
+
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/setPattern"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="set Pattern"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:background="@color/colorButton"
+        android:padding="10dp"
+        android:textSize="26dp"/>
+</LinearLayout>

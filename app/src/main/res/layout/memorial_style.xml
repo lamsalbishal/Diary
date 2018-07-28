@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/aqua"
+        android:layout_marginTop="10dp">
+    <TextView
+        android:id="@+id/memorialTitleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="Hello "
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/memorialDateView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:textSize="20dp"
+        android:text="2075-3-2"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:textColor="@color/colorWhite"/>
+
+    <ImageView
+        android:id="@+id/memorialImageView"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/mt"/>
+
+        <ImageView
+            android:layout_marginTop="-60dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/thinking"/>
+
+    <TextView
+        android:textColor="@color/colorWhite"
+        android:id="@+id/memorialDesView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:padding="10dp"
+        android:textSize="20sp"
+      />
+
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="100dp"
+         android:src="@mipmap/memorial"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

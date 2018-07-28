@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+<LinearLayout
+    android:id="@+id/patternBg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/patternbg">
+
+
+    <TextView
+        android:id="@+id/datePattern"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="@color/colorWhite"
+       />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Draw your unlock pattern"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="16dp"
+        />
+
+    <com.andrognito.patternlockview.PatternLockView
+        android:id="@+id/pattern_lock_view"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        />
+</LinearLayout>
+</LinearLayout>

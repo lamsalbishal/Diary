@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SingleBirthDayPage"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/aqua">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/colorPrimary"
+                    android:gravity="right">
+
+                    <ImageView
+                        android:layout_marginRight="20dp"
+                        android:id="@+id/updateBirthdayPage"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_system_update_black_24dp"/>
+
+                    <ImageView
+                        android:layout_marginRight="20dp"
+                        android:id="@+id/deleteBirthdayPage"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_delete_forever_black_24dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:id="@+id/singleFrnImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/mt"/>
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="@mipmap/balloon"
+                        >
+
+                    <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Name :"
+                        android:textSize="25dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@color/colorWhite"/>
+
+                    <TextView
+                        android:id="@+id/singlefrnName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bishal"
+                        android:textSize="25dp"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/colorWhite"/>
+                </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Birthday :"
+                            android:textSize="25dp"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@color/colorWhite"/>
+
+                        <TextView
+                            android:id="@+id/singlefrnBirthDay"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bishal"
+                            android:textSize="25dp"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="@color/colorWhite"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Address :"
+                            android:textSize="25dp"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@color/colorWhite"/>
+
+                        <TextView
+                            android:id="@+id/singlefrnAddress"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ktm"
+                            android:textSize="25dp"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="@color/colorWhite"/>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Phone :"
+                            android:textSize="25dp"
+                            android:layout_marginLeft="20dp"
+                            android:textColor="@color/colorWhite"/>
+
+                        <TextView
+                            android:id="@+id/singlefrnPhone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ktm"
+                            android:textSize="25dp"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="@color/colorWhite"/>
+                    </LinearLayout>
+                    </LinearLayout>
+                    </ScrollView>
+
+
+                </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

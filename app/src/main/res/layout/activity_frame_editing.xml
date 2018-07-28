@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrameEditing">
+
+    <RelativeLayout
+        android:id="@+id/lay"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/editingImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/editingImageFilter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b_load"
+            android:text="Load"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorButton"/>
+
+        <Button
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b_save"
+            android:text="Save"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorButton"/>
+        <Button
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b_share"
+            android:text="Share"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorButton"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="10dp">
+
+        <ImageView
+            android:id="@+id/flowerFilter"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/flower"/>
+        <ImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/roseFilter"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/rose"/>
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:id="@+id/frameFilter"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/frame"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
